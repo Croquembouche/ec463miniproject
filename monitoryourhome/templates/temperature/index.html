@@ -1,0 +1,13 @@
+{% load static %}
+
+
+    <script type="text/javascript" src="{% static "js/fusioncharts.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/themes/fusioncharts.theme.fusion.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/fusioncharts.maps.js" %}"></script>
+	<script type="text/javascript" src="{% static "js/maps/fusioncharts.world.js" %}"></script>
+
+
+
+	<body>
+	    <div id="chart-1">{{ output|safe }}</div>
+	</body>
